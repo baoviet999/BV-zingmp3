@@ -1,0 +1,21 @@
+:root{
+    /* Color */
+    --primary-color : #061D4F;
+    --white-color : #fff;
+    --secondary-color :#3460F5;
+    --nav-background-color : rgba(255,255,255,0.05);
+    --appplay-color : #051740;
+    --content-header-color: #061D50;
+    --search-color:#274A78;
+    --hover-color : #1F3461;
+    
+    /* Width */
+    --nav-width : 240px;
+    
+    /* Slider */
+    --offset-x-second: calc(0px - ((230px - (230px * var(--scale-rate-second))) / 2 + 20px));
+    --offset-x-third: calc(0px - ((230px - (230px * var(--scale-rate-third))) / 2 + 40px));
+    --scale-rate-second: calc(196 / 230);
+    --scale-rate-third: calc(162 / 230);
+}
+
